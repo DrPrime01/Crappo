@@ -1,61 +1,64 @@
 import React from "react";
 import Logo from "../assets/Images/Logo.svg";
+import Visa from "../assets/Images/Visa.png";
+import Mastercard from "../assets/Images/Mastercard.png";
+import Bitcoin from "../assets/Images/Bitcoin.png";
 
 function Footer() {
   return (
-    <footer class="bg-primary">
-      <div class="mx-auto w-full container px-4 py-10">
-        <div class="md:flex md:space-x-40">
-          <div class="mb-6 md:mb-0">
-            <a href="#" class="flex items-center">
+    <footer className="bg-primary">
+      <div className="mx-auto w-full container px-4 py-10">
+        <div className="md:flex md:space-x-40">
+          <div className="mb-6 md:mb-0">
+            <a href="#" className="flex items-center">
             <img src={Logo} className="h-6 mr-3 sm:h-9" alt="Crappo Logo" />
             <span className="self-center text-xl font-semibold whitespace-nowrap text-white">
               CRAPPO
             </span>
             </a>
           </div>
-          <div class="grid grid-cols-2 gap-8 sm:gap-24 sm:grid-cols-3">
+          <div className="grid grid-cols-2 grid-rows-2 sm:grid-rows-1 gap-8 sm:grid-cols-3">
             <div>
-              <h2 class="mb-6 text-sm font-semibold uppercase text-white">
+              <h2 className="mb-6 text-sm font-semibold uppercase text-white">
                 Quick Link
               </h2>
-              <ul class="text-neutral font-medium text-xs space-y-4">
+              <ul className="text-neutral font-medium text-xs space-y-4">
                 <li>
-                  <a href="#" class="hover:underline">
+                  <a href="#" className="hover:underline">
                     Home
                   </a>
                 </li>
                 <li>
-                  <a href="#" class="hover:underline">
+                  <a href="#" className="hover:underline">
                     Products
                   </a>
                 </li>
                 <li>
-                  <a href="#" class="hover:underline">
+                  <a href="#" className="hover:underline">
                     About
                   </a>
                 </li>
                 <li>
-                  <a href="#" class="hover:underline">
+                  <a href="#" className="hover:underline">
                     Features
                   </a>
                 </li>
                 <li>
-                  <a href="#" class="hover:underline">
+                  <a href="#" className="hover:underline">
                     Contact
                   </a>
                 </li>
               </ul>
             </div>
             <div>
-              <h2 class="mb-6 text-sm font-semibold uppercase text-white">
+              <h2 className="mb-6 text-sm font-semibold uppercase text-white">
                 Resources
               </h2>
-              <ul class="text-neutral font-medium text-xs space-y-4">
+              <ul className="text-neutral font-medium text-xs space-y-4">
                 <li>
                   <a
                     href="#"
-                    class="hover:underline "
+                    className="hover:underline "
                   >
                     Download Whitepaper
                   </a>
@@ -63,7 +66,7 @@ function Footer() {
                 <li>
                   <a
                     href="#"
-                    class="hover:underline"
+                    className="hover:underline"
                   >
                     Smart Token
                   </a>
@@ -71,7 +74,7 @@ function Footer() {
                 <li>
                   <a
                     href="#"
-                    class="hover:underline"
+                    className="hover:underline"
                   >
                     Blockchain Explorer
                   </a>
@@ -79,7 +82,7 @@ function Footer() {
                 <li>
                   <a
                     href="#"
-                    class="hover:underline"
+                    className="hover:underline"
                   >
                     Crypto API
                   </a>
@@ -87,48 +90,41 @@ function Footer() {
                 <li>
                   <a
                     href="#"
-                    class="hover:underline"
+                    className="hover:underline"
                   >
                     Interest
                   </a>
                 </li>
               </ul>
             </div>
-            <div>
-              <h2 class="mb-6 text-sm font-semibold uppercase text-white">
-                Legal
+            <div className="col-span-2 md:col-span-1">
+              <h2 className="my-6 md:mb-8 lg:text-xl text-xl leading-tight lg:leading-8 font-semibold text-white">
+                We accept following payment systems
               </h2>
-              <ul class="text-neutral font-medium text-xs">
-                <li class="mb-4">
-                  <a href="#" class="hover:underline">
-                    Privacy Policy
-                  </a>
-                </li>
-                <li>
-                  <a href="#" class="hover:underline">
-                    Terms &amp; Conditions
-                  </a>
-                </li>
-              </ul>
+              <div className="icons flex flex-row justify-between items-center space-x-4">
+              <img src={Visa} className="h-9" alt="visa" />
+              <img src={Mastercard} className="h-9" alt="mastercard" />
+              <img src={Bitcoin} className="h-9" alt="bitcoin" />
+              </div>
             </div>
           </div>
         </div>
         
-        <div class="sm:flex sm:items-center sm:justify-between mt-16">
-          <span class="text-sm text-white sm:text-center">
+        <div className="sm:flex sm:items-center sm:justify-between mt-10 md:mt-20">
+          <span className="text-sm text-white sm:text-center">
             © 2023{" "}
-            <a href="#" class="hover:underline">
+            <a href="#" className="hover:underline">
               CRAPPO™
             </a>
             . All Rights Reserved.
           </span>
-          <div class="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
+          <div className="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
             <a
               href="#"
-              class="text-white"
+              className="text-white"
             >
               <svg
-                class="w-5 h-5"
+                className="w-5 h-5"
                 fill="currentColor"
                 viewBox="0 0 24 24"
                 aria-hidden="true"
@@ -139,14 +135,14 @@ function Footer() {
                   clip-rule="evenodd"
                 />
               </svg>
-              <span class="sr-only">Facebook page</span>
+              <span className="sr-only">Facebook page</span>
             </a>
             <a
               href="#"
-              class="text-white"
+              className="text-white"
             >
               <svg
-                class="w-5 h-5"
+                className="w-5 h-5"
                 fill="currentColor"
                 viewBox="0 0 24 24"
                 aria-hidden="true"
@@ -157,28 +153,28 @@ function Footer() {
                   clip-rule="evenodd"
                 />
               </svg>
-              <span class="sr-only">Instagram page</span>
+              <span className="sr-only">Instagram page</span>
             </a>
             <a
               href="#"
-              class="text-white"
+              className="text-white"
             >
               <svg
-                class="w-5 h-5"
+                className="w-5 h-5"
                 fill="currentColor"
                 viewBox="0 0 24 24"
                 aria-hidden="true"
               >
                 <path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84" />
               </svg>
-              <span class="sr-only">Twitter page</span>
+              <span className="sr-only">Twitter page</span>
             </a>
             <a
               href="#"
-              class="text-white"
+              className="text-white"
             >
               <svg
-                class="w-5 h-5"
+                className="w-5 h-5"
                 fill="currentColor"
                 viewBox="0 0 24 24"
                 aria-hidden="true"
@@ -189,14 +185,14 @@ function Footer() {
                   clip-rule="evenodd"
                 />
               </svg>
-              <span class="sr-only">GitHub account</span>
+              <span className="sr-only">GitHub account</span>
             </a>
             <a
               href="#"
-              class="text-white"
+              className="text-white"
             >
               <svg
-                class="w-5 h-5"
+                className="w-5 h-5"
                 fill="currentColor"
                 viewBox="0 0 24 24"
                 aria-hidden="true"
@@ -207,7 +203,7 @@ function Footer() {
                   clip-rule="evenodd"
                 />
               </svg>
-              <span class="sr-only">Dribbble account</span>
+              <span className="sr-only">Dribbble account</span>
             </a>
           </div>
         </div>
