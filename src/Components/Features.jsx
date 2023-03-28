@@ -7,7 +7,7 @@ import EthIllustration from "../assets/Images/EthIllustration.png";
 
 function Features() {
   return (
-    <div className="bg-primary min-h-screen w-full px-6">
+    <div className="bg-primary w-full px-6">
       <div className="mx-auto container">
         <div className="mx-auto max-w-5xl container pb-0 pt-0 md:pt-14">
           <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 justify-between items-center">
