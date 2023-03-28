@@ -12,7 +12,7 @@ function Features() {
         <div className="mx-auto max-w-5xl container pb-0 pt-0 md:pt-14">
           <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 justify-between items-center">
             <div className="flex flex-row space-x-2 items-center self-start md:self-stretch">
-              <img src={ChartIcon} className="h-9" alt="chart icon" />
+              <img src={ChartIcon} className="h-12" alt="chart icon" />
               <div className="stats flex flex-col">
                 <span className="font-bold text-2xl md:text-3xl text-white">
                   $30B
@@ -23,7 +23,7 @@ function Features() {
               </div>
             </div>
             <div className="flex flex-row space-x-4 items-center self-center md:self-stretch">
-              <img src={PersonIcon} className="h-9" alt="person icon" />
+              <img src={PersonIcon} className="h-12" alt="person icon" />
               <div className="stats flex flex-col">
                 <span className="font-bold text-2xl md:text-3xl text-white">
                   10M+
@@ -34,7 +34,7 @@ function Features() {
               </div>
             </div>
             <div className="flex flex-row space-x-4 items-center self-end md:self-stretch">
-              <img src={GlobeIcon} className="h-9" alt="globe icon" />
+              <img src={GlobeIcon} className="h-12" alt="globe icon" />
               <div className="stats flex flex-col">
                 <span className="font-bold text-2xl md:text-3xl text-white">
                   195
