@@ -9,7 +9,7 @@ module.exports = {
       neutral: '#E0E0E0',
       accent: '#3671E9',
       white: '#FFFFFF',
-      blue: '#3671E9',
+      "bg-color-2": '#5C59A5',
     },
     extend: {
       screens: {
