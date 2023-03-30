@@ -7,14 +7,14 @@ import Bitcoin from "../assets/Images/Bitcoin.png";
 function Footer() {
   return (
     <footer className="bg-primary">
-      <div className="mx-auto w-full md:container px-4 py-10">
+      <div className="mx-auto w-full container px-4 py-10 max-w-6xl">
         <div className="md:flex md:space-x-32">
           <div className="mb-6 md:mb-0">
             <a href="#" className="flex items-center">
-            <img src={Logo} className="h-6 mr-3 sm:h-9" alt="Crappo Logo" />
-            <span className="self-center text-xl font-semibold whitespace-nowrap text-white">
-              CRAPPO
-            </span>
+              <img src={Logo} className="h-6 mr-3 sm:h-9" alt="Crappo Logo" />
+              <span className="self-center text-xl font-semibold whitespace-nowrap text-white">
+                CRAPPO
+              </span>
             </a>
           </div>
           <div className="grid grid-cols-2 grid-rows-2 sm:grid-rows-1 gap-0 sm:grid-cols-3">
@@ -56,42 +56,27 @@ function Footer() {
               </h2>
               <ul className="text-neutral font-medium text-xs space-y-4">
                 <li>
-                  <a
-                    href="#"
-                    className="hover:underline "
-                  >
+                  <a href="#" className="hover:underline ">
                     Download Whitepaper
                   </a>
                 </li>
                 <li>
-                  <a
-                    href="#"
-                    className="hover:underline"
-                  >
+                  <a href="#" className="hover:underline">
                     Smart Token
                   </a>
                 </li>
                 <li>
-                  <a
-                    href="#"
-                    className="hover:underline"
-                  >
+                  <a href="#" className="hover:underline">
                     Blockchain Explorer
                   </a>
                 </li>
                 <li>
-                  <a
-                    href="#"
-                    className="hover:underline"
-                  >
+                  <a href="#" className="hover:underline">
                     Crypto API
                   </a>
                 </li>
                 <li>
-                  <a
-                    href="#"
-                    className="hover:underline"
-                  >
+                  <a href="#" className="hover:underline">
                     Interest
                   </a>
                 </li>
@@ -102,14 +87,14 @@ function Footer() {
                 We accept following payment systems
               </h2>
               <div className="icons flex flex-row justify-between items-center space-x-4 md:space-x-2">
-              <img src={Visa} className="h-9" alt="visa" />
-              <img src={Mastercard} className="h-9" alt="mastercard" />
-              <img src={Bitcoin} className="h-9" alt="bitcoin" />
+                <img src={Visa} className="h-9" alt="visa" />
+                <img src={Mastercard} className="h-9" alt="mastercard" />
+                <img src={Bitcoin} className="h-9" alt="bitcoin" />
               </div>
             </div>
           </div>
         </div>
-        
+
         <div className="sm:flex sm:items-center sm:justify-between mt-6 md:mt-20">
           <span className="text-sm text-white sm:text-center">
             © 2023{" "}
@@ -119,10 +104,7 @@ function Footer() {
             . All Rights Reserved.
           </span>
           <div className="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
-            <a
-              href="#"
-              className="text-white"
-            >
+            <a href="#" className="text-white">
               <svg
                 className="w-5 h-5"
                 fill="currentColor"
@@ -137,10 +119,7 @@ function Footer() {
               </svg>
               <span className="sr-only">Facebook page</span>
             </a>
-            <a
-              href="#"
-              className="text-white"
-            >
+            <a href="#" className="text-white">
               <svg
                 className="w-5 h-5"
                 fill="currentColor"
@@ -155,10 +134,7 @@ function Footer() {
               </svg>
               <span className="sr-only">Instagram page</span>
             </a>
-            <a
-              href="#"
-              className="text-white"
-            >
+            <a href="#" className="text-white">
               <svg
                 className="w-5 h-5"
                 fill="currentColor"
@@ -169,10 +145,7 @@ function Footer() {
               </svg>
               <span className="sr-only">Twitter page</span>
             </a>
-            <a
-              href="#"
-              className="text-white"
-            >
+            <a href="#" className="text-white">
               <svg
                 className="w-5 h-5"
                 fill="currentColor"
@@ -187,10 +160,7 @@ function Footer() {
               </svg>
               <span className="sr-only">GitHub account</span>
             </a>
-            <a
-              href="#"
-              className="text-white"
-            >
+            <a href="#" className="text-white">
               <svg
                 className="w-5 h-5"
                 fill="currentColor"

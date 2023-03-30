@@ -4,7 +4,7 @@ function CallToAction() {
   return (
     <div className="bg-gradient-to-b from-[#2B076E] to-[#0D0D2B] w-full px-6">
       <div className="mx-auto container">
-        <div className="mx-auto max-w-5xl container py-16 flex justify-center items-center">
+        <div className="mx-auto max-w-6xl container py-16 flex justify-center items-center">
           <div
             className="flex flex-col bg-accent shadow rounded-md p-10 text-left w-full z-10 md:flex-row justify-between md:items-center"
             id="cta-container"
