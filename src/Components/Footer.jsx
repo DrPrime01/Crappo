@@ -7,8 +7,8 @@ import Bitcoin from "../assets/Images/Bitcoin.png";
 function Footer() {
   return (
     <footer className="bg-primary">
-      <div className="mx-auto w-full container px-4 py-10">
-        <div className="md:flex md:space-x-40">
+      <div className="mx-auto w-full md:container px-4 py-10">
+        <div className="md:flex md:space-x-32">
           <div className="mb-6 md:mb-0">
             <a href="#" className="flex items-center">
             <img src={Logo} className="h-6 mr-3 sm:h-9" alt="Crappo Logo" />
@@ -17,7 +17,7 @@ function Footer() {
             </span>
             </a>
           </div>
-          <div className="grid grid-cols-2 grid-rows-2 sm:grid-rows-1 gap-8 sm:grid-cols-3">
+          <div className="grid grid-cols-2 grid-rows-2 sm:grid-rows-1 gap-0 sm:grid-cols-3">
             <div>
               <h2 className="mb-6 text-sm font-semibold uppercase text-white">
                 Quick Link
@@ -101,7 +101,7 @@ function Footer() {
               <h2 className="my-6 md:mb-8 lg:text-xl text-xl leading-tight lg:leading-8 font-semibold text-white">
                 We accept following payment systems
               </h2>
-              <div className="icons flex flex-row justify-between items-center space-x-4">
+              <div className="icons flex flex-row justify-between items-center space-x-4 md:space-x-2">
               <img src={Visa} className="h-9" alt="visa" />
               <img src={Mastercard} className="h-9" alt="mastercard" />
               <img src={Bitcoin} className="h-9" alt="bitcoin" />

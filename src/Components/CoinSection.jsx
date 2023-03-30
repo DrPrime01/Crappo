@@ -9,7 +9,7 @@ import LitecoinIcon from "../assets/Images/LitecoinIcon.svg";
 function CoinSection() {
   return (
     <div className="bg-bg-color-2 w-full px-6">
-      <div className="mx-auto container">
+      <div className="mx-auto md:container">
         <div className="mx-auto max-w-5xl container pb-24 pt-80 md:pt-64">
         <div className="flex flex-col justify-between space-y-6 md:space-y-12 items-center">
         <p className="text-center text-xl sm:text-2xl md:text-3xl leading-tight md:leading-[36px] font-bold text-primary mb-3 md:mb-6 max-w-xl">

@@ -4,7 +4,7 @@ import BitcoinIllustration from "../assets/Images/BitcoinIllustration.png";
 
 function Hero() {
   return (
-    <div className="flex flex-col md:flex-row justify-between md:items-center mt-14 container mx-auto">
+    <div className="flex flex-col md:flex-row justify-between md:items-center mt-14 md:container mx-auto">
       <div
         className="flex flex-col justify-between md:w-1/2"
         id="hero-text-container"

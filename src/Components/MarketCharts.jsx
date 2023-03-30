@@ -7,7 +7,7 @@ import Table from "../assets/Images/Table.png";
 function MarketChart() {
   return (
     <div className="bg-secondary w-full px-6">
-      <div className="mx-auto container">
+      <div className="mx-auto md:container">
         <div className="mx-auto max-w-5xl container md:py-24 py-20 relative">
           <div className="flex flex-col justify-between space-y-12 items-center">
             <p className="text-center text-2xl md:text-3xl leading-tight md:leading-[36px] font-bold text-white mb-3 md:mb-6 max-w-xl ">
