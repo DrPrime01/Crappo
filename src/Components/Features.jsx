@@ -9,7 +9,7 @@ function Features() {
   return (
     <div className="bg-primary w-full px-6">
       <div className="mx-auto container">
-        <div className="mx-auto max-w-5xl container pb-0 pt-0 md:pt-14">
+        <div className="mx-auto max-w-5xl container pb-0 pt-14 md:pt-24">
           <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 justify-between items-center">
             <div className="flex flex-row space-x-2 items-center self-start md:self-stretch">
               <img src={ChartIcon} className="h-12" alt="chart icon" />
@@ -45,7 +45,7 @@ function Features() {
               </div>
             </div>
           </div>
-          <div className="flex flex-col md:flex-row justify-between items-center mt-8 md:mt-24 space-y-8">
+          <div className="flex flex-col md:flex-row justify-between items-center mt-8 md:mt-16 space-y-8">
             <div
               className="flex items-center justify-center md:w-1/2"
               id="hero-img"

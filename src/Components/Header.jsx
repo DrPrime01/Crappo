@@ -5,7 +5,7 @@ import Hero from './Hero'
 
 function Header() {
   return (
-    <div className='bg-primary min-h-screen w-full px-6 sm:px-6 pb-14'>
+    <div className='bg-primary min-h-screen w-full px-6 sm:px-6 md:min-h-0'>
       <div className='mx-auto max-w-5xl container'>
         <Navbar />
         <Hero />

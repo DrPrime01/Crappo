@@ -11,19 +11,20 @@ function Hero() {
       >
         <div className="flex flex-col space-y-6" id="hero-texts">
           <div
-            className="bg-white bg-opacity-10 rounded-[32px] p-1 pr-2 flex flex-row items-center gap-2.5 max-w-fit"
+            className="bg-white bg-opacity-10 rounded-[32px] p-1 pr-2 flex flex-row items-center gap-2 sm:gap-2.5"
             id="hero-discount-banner"
           >
             <span
-              className="block bg-white px-4 py-1 text-primary rounded-[32px] font-medium"
+              className="block bg-white px-2 sm:px-4 py-0.5 sm:py-1 text-[0.82rem] sm:text-primary rounded-[32px] font-medium"
               id="hero-discount"
             >
               75% SAVE
             </span>
-            <span className="block text-white">
+            <span className="block text-white text-[0.82rem] sm:text-base">
               For the Black Friday weekend
             </span>
           </div>
+
           <p className="text-4xl md:text-5xl lg:text-6xl leading-tight md:leading-[56px] lg:leading-[75px] font-bold text-white">
             Fastest & secure platform to invest in crypto
           </p>
@@ -37,7 +38,11 @@ function Hero() {
               className="btn rounded-[32px] shadow-md focus:ring-2 focus:ring-opacity-75 py-4 pr-4 pl-5 bg-accent text-white"
             >
               Try for FREE
-              <img src={ArrowRight} className="h-6 inline ml-2" alt="right arrow" />
+              <img
+                src={ArrowRight}
+                className="h-6 inline ml-2"
+                alt="right arrow"
+              />
             </button>
           </div>
         </div>
