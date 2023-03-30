@@ -98,7 +98,7 @@ function Footer() {
               </ul>
             </div>
             <div className="col-span-2 md:col-span-1">
-              <h2 className="my-6 md:mb-8 lg:text-xl text-xl leading-tight lg:leading-8 font-semibold text-white">
+              <h2 className="my-8 md:my-6 md:mb-8 lg:text-xl text-xl leading-tight lg:leading-8 font-semibold text-white">
                 We accept following payment systems
               </h2>
               <div className="icons flex flex-row justify-between items-center space-x-4 md:space-x-2">
@@ -110,7 +110,7 @@ function Footer() {
           </div>
         </div>
         
-        <div className="sm:flex sm:items-center sm:justify-between mt-10 md:mt-20">
+        <div className="sm:flex sm:items-center sm:justify-between mt-6 md:mt-20">
           <span className="text-sm text-white sm:text-center">
             © 2023{" "}
             <a href="#" className="hover:underline">
